@@ -1,0 +1,28 @@
+.todoItems {
+  width: 500px;
+  color: blueviolet;
+  background-color: white;
+  font-size: 20px;
+  margin: 0 auto;
+}
+.todoItemsName {
+  font-weight: bolder;
+  padding: 20px;
+  /* border-bottom: 1px solid black; */
+}
+.line {
+  border: 1px solid #000000;
+}
+.deleteButton {
+  float: right;
+  border: none;
+  border-radius: 1px;
+  background-color: #f7ca18;
+  padding: 12px 20px;
+  color: white;
+  margin-top: -5px;
+  cursor: pointer;
+}
+.completed {
+  text-decoration: line-through;
+}
