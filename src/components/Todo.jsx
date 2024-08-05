@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Footer from "./Footer";
-import Form from "./form";
+import Form from "./Form";
 import Formitems from "./Formitems";
 
 function Todo() {

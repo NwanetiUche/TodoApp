@@ -8,7 +8,6 @@
 .todoItemsName {
   font-weight: bolder;
   padding: 20px;
-  /* border-bottom: 1px solid black; */
 }
 .line {
   border: 1px solid #000000;
@@ -25,4 +24,11 @@
 }
 .completed {
   text-decoration: line-through;
+}
+/* =======Reponsiveness for Small Device========== */
+
+@media screen and (max-width: 600px) {
+  .todoItems {
+    width: 80%;
+  }
 }

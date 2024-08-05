@@ -12,3 +12,17 @@
 .item {
   margin: 20px;
 }
+
+/* =======Reponsiveness for Small Devices========== */
+
+@media screen and (max-width: 600px) {
+  .item {
+    display: block;
+    margin: 4px;
+  }
+  .footer {
+    height: 90px;
+    font-weight: lighter;
+    font-size: 1.7rem;
+  }
+}

@@ -7,3 +7,10 @@
   padding: 20px;
   margin-top: 50px;
 }
+/* =======Reponsiveness for Small Device========== */
+
+@media screen and (max-width: 600px) {
+  .list {
+    width: 80%;
+  }
+}
